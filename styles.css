@@ -141,6 +141,8 @@ a:hover { color: var(--terracotta-500); }
 .wordmark__mark { width: 11px; height: 11px; background: var(--terracotta-500); flex: none; }
 .wordmark__neuro { color: var(--teal-600); }
 .wordmark__buh { color: var(--ink); }
+/* на узком телефоне в шапке только имя и фамилия, чтобы влезла кнопка меню */
+@media (max-width: 560px) { .wordmark__buh { display: none; } }
 
 .nav {
   display: flex;
